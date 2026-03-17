@@ -131,3 +131,53 @@ git commit -m "update"
 
 git push -u origin main
 ```
+
+# CC2.2: Text Preprocessing -- Phase 3: Read and Understand the Example Project
+
+Professional Practice
+- Before modifying a project, first read and understand how it works.
+- Professional developers often explore a project in a consistent order: documentation, code, data, and outputs.
+- Focus on the overall flow of the project. It's not necessary to understand every line of code at this point.
+
+Professional Project Organization
+- Real-world projects contain many files, so most professional projects follow a predictable organization.
+
+Folder Naming Conventions
+- When referring to a folder in documentation, a / is often added to the name. For example, data/.
+- The slash is not part of the folder name - it just indicates a folder.
+
+Goal -- By the end of this phase you should understand:
+- the purpose of the project
+- the main tools or techniques used
+- how data flows through the program
+
+Suggested Reading Order
+- README.mnd (root project folder)
+- Documentation (docs/)
+- Notebooks and Source Code (notebooks/ and src/)
+  - Jupyter notebooks run top to bottom
+  - Python
+    - locate the main() function
+    - observe which functions are called
+    - follow how information flows through the program
+    - note what is passed to each function as arguments (inside the parentheses)
+- Data (data/)
+- Outputs (artifacts/ or output/)
+- Log File (project.log)
+
+Example code chosen
+
+```shell
+print("First 5 text records:")
+for line in text_list[:5]:
+    print("-", line)
+
+print(f"\nLoaded {len(text_list):,} text records.")
+print(f"Raw text length: {len(raw_text):,} characters")
+
+print("\nFirst 500 characters of combined text:")
+print(raw_text[:500])
+```
+Why: It shows both correct coding and clear communication in one line. It calculates a useful number, formats it to be easy to read, and labels it so others can quickly understand the results.
+
+What can you do with these skills: These skills help you quickly check data, clean it consistently, and turn text into reliable insights. They also help you communicate results clearly so others can understand and trust your work.
