@@ -15,13 +15,16 @@ title: Web Mining and Applied NLP 01 Getting Started
 date-released: "2026-03-06"
 
 authors:
+  - family-names: Crews
+    given-names: Angie
+    affiliation: "Northwest Missouri State University, USA"
   - family-names: Case
     given-names: Denise M.
     orcid: "https://orcid.org/0000-0001-6165-7389"
     affiliation: "Northwest Missouri State University, USA"
 
-repository-code: "https://github.com/denisecase/nlp-02-text-preprocessing"
-url: "https://github.com/denisecase/nlp-02-text-preprocessing"
+repository-code: "https://github.com/Angie-Crews/nlp-02-text-preprocessing"
+url: "https://github.com/Angie-Crews/nlp-02-text-preprocessing"
 license: MIT
 
 abstract: |
