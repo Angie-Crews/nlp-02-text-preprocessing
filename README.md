@@ -68,12 +68,66 @@ git push -u origin main
 
 # CC2.2: Text Preprocessing -- Phase 2: Change Authorship
 
-## Authorship Updates
+## Pull Code from GitHub
+Open project repository in VS Code and a new terminal.
 
-✅ **Authorship Updated Across All Files:**
+```shell
+git pull origin main
+```
 
-- [zensical.toml](zensical.toml) — Site, repo, and social links point to Angie-Crews
-- [LICENSE](LICENSE) — Added Angie Crews as copyright holder
-- [CITATION.cff](CITATION.cff) — Angie Crews listed as primary author
-- [notebooks/text_preprocessing_case.ipynb](notebooks/text_preprocessing_case.ipynb) — Author and repo links updated
+## Update Authorship and Repository References
+
+✅ Authorship Updated Across All Files:
+
+- zensical.toml — Site, repo, and social links point to Angie-Crews
+- LICENSE — Added Angie Crews as copyright holder
+- CITATION.cff — Angie Crews listed as primary author
+- text_preprocessing_case.ipynb — Author and repo links updated
 - GitHub About section — Linked to your GitHub Pages site
+- README.md - Username to Angie-Crews
+
+## Run the Project Code
+
+Run the Code
+- Activate VS Code Interpreter
+  - Command Palette
+  - Python: Select Interpreter
+  - Choose recommended local .venv
+- Set Auto Save Option
+- Run the Python File
+      ```shell
+      uv run python src/nlp/text_preprocessing_case.py
+      ```
+- Update Project README.md with process steps and commands
+
+Add or update Dependencies (In the Project Root Folder)
+```shell
+uv cache clean
+uv sync --extra dev --extra docs --upgrade
+```
+Run Checks and Tests
+```shell
+uv run ruff format .
+uv run ruff check . --fix
+uv run pytest --cov=src --cov-report=term-missing
+```
+
+Build Documenation
+```shell
+uv run zensical build
+uv run zensical serve
+```
+
+Save work frequently!
+
+## Git Add-Commit-Push to GitHub
+
+```shell
+git add -A
+git commit -m "update"
+
+git add -A
+git commit -m "update"
+
+git push -u origin main
+```
