@@ -1,105 +1,33 @@
-# nlp-02-text-preprocessing
+# P2: Text Preprocessing
 
 [![Python 3.14+](https://img.shields.io/badge/python-3.14%2B-blue?logo=python)](#)
 [![MIT](https://img.shields.io/badge/license-see%20LICENSE-yellow.svg)](./LICENSE)
 
-> Professional Python project for Web Mining and Applied NLP.
+## Assignment Goal
 
-Web Mining and Applied NLP focus on retrieving, processing, and analyzing text from the web and other digital sources.
-This course builds those capabilities through working projects.
+Set up the project, run the example text preprocessing pipeline, review the code, and submit your updated work.
 
-In the age of generative AI, durable skills are grounded in real work:
-setting up a professional environment,
-reading and running code,
-understanding the logic,
-and pushing work to a shared repository.
-Each project follows a similar structure based on professional Python projects.
-These projects are **hands-on textbooks** for learning Web Mining and Applied NLP.
+## Project Scope
 
-## This Project
+- Notebook exploration: notebooks/text_preprocessing_case.ipynb
+- Python module: src/nlp/text_preprocessing_case.py
+- Project metadata: pyproject.toml and zensical.toml
+- Input data: data/text_data_case.txt
 
-This project introduces **text preprocessing**.
+## Steps to Complete the Assignment
 
-The goal is to copy this repository,
-set up your environment,
-run the example analysis,
-and explore how raw text is cleaned and prepared
-for natural language processing.
+1. Clone your repository and open it in VS Code.
+2. Set up the environment and dependencies with uv.
+3. Install pre-commit hooks and run checks.
+4. Run the example module.
+5. Open the notebook, select the kernel, and run all cells.
+6. Update authorship and repository metadata.
+7. Make one technical modification and verify it still runs.
+8. Commit and push your changes.
 
-You will run the example pipeline, read the code,
-and make small modifications to understand how
-the preprocessing workflow works.
+## Commands
 
-## Data
-
-The example pipeline reads text records from a file in data/.
-
-We use Python to preprocesses the text by applying steps such as
-tokenization, normalization, punctuation removal,
-and stop word filtering.
-The results show how raw text changes as it moves
-through the preprocessing pipeline.
-
-## Working Files
-
-You'll work with just these areas:
-
-- **notebooks/** - Jupyter notebooks for exploration
-- **src/nlp/** - Python code (verifies .venv/)
-- **pyproject.toml** - update authorship, links, and dependencies
-- **zensical.toml** - update authorship and links
-
-## First: Follow These Instructions
-
-Follow the [step-by-step workflow guide](https://denisecase.github.io/pro-analytics-02/workflow-b-apply-example-project/) to complete:
-
-1. Phase 1. **Start & Run**
-2. Phase 2. **Change Authorship**
-3. Phase 3. **Read & Understand**
-
-## Challenges
-
-Challenges are expected.
-Sometimes instructions may not quite match your operating system.
-When issues occur, share screenshots, error messages, and details about what you tried.
-Working through issues is an important part of implementing professional projects.
-
-## Success
-
-After completing Phase 1. **Start & Run**, you'll have your own GitHub project,
-running on your machine, and running the example will print out:
-
-```shell
-========================
-Pipeline executed successfully!
-========================
-```
-
-And a new file named `project.log` will appear in the project folder.
-
-## Command Reference
-
-The commands below are used in the workflow guide above.
-They are provided here for convenience.
-
-Follow the guide for the **full instructions**.
-
-<details>
-<summary>Show command reference</summary>
-
-### In a machine terminal (open in your `Repos` folder)
-
-After you get a copy of this repo in your own GitHub account,
-open a machine terminal in your `Repos` folder:
-
-```shell
-# Replace username with YOUR GitHub username.
-git clone https://github.com/username/nlp-02-text-preprocessing
-cd nlp-02-text-preprocessing
-code .
-```
-
-### In a VS Code terminal
+Run from the project root.
 
 ```shell
 uv self update
@@ -110,36 +38,25 @@ uvx pre-commit install
 git add -A
 uvx pre-commit run --all-files
 
-# Later, we install spacy data model and
-# en_core_web_sm = english, core, web, small
-# It's big: spacy+data ~200+ MB w/ model installed
-#           ~350–450 MB for .venv is normal for NLP
-# uv run python -m spacy download en_core_web_sm
-
-# First, run the module
-# IMPORTANT: Close each figure after viewing so execution continues
 uv run python -m nlp.text_preprocessing_case
-
-# Then, open the notebook.
-# IMPORTANT: Select the kernel and Run All:
-# notebooks/text_preprocessing_case.ipynb
 
 uv run ruff format .
 uv run ruff check . --fix
 uv run zensical build
 
 git add -A
-git commit -m "update"
+git commit -m "complete assignment"
 git push -u origin main
 ```
 
-</details>
+## Completion Checklist
 
-## Notes
+- Pipeline runs successfully.
+- Notebook runs end-to-end.
+- Metadata is updated with your information.
+- Pre-commit checks pass.
+- Changes are pushed to GitHub.
 
-- Use the **UP ARROW** and **DOWN ARROW** in the terminal to scroll through past commands.
-- Use `CTRL+f` to find (and replace) text within a file.
-
-## Example Artifact (Output)
+## Example Output Artifact
 
 ![Word Cloud Example](docs/images/word_cloud_example.png)
