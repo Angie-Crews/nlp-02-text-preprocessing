@@ -88,7 +88,6 @@ git pull origin main
 
 ## Run the Project Code
 
-Run the Code
 - Activate VS Code Interpreter
   - Command Palette
   - Python: Select Interpreter
@@ -111,8 +110,7 @@ uv run ruff format .
 uv run ruff check . --fix
 uv run pytest --cov=src --cov-report=term-missing
 ```
-
-Build Documenation
+## Build Documenation
 ```shell
 uv run zensical build
 uv run zensical serve
@@ -181,3 +179,45 @@ print(raw_text[:500])
 Why: It shows both correct coding and clear communication in one line. It calculates a useful number, formats it to be easy to read, and labels it so others can quickly understand the results.
 
 What can you do with these skills: These skills help you quickly check data, clean it consistently, and turn text into reliable insights. They also help you communicate results clearly so others can understand and trust your work.
+
+# P2: Text Preprocessing -- Phase 4: Make a Technical Modification
+
+## Pull Code from GitHub
+```shell
+git pull origin main
+```
+
+## Technical Modification Summary
+
+This phase includes multiple technical modifications in my `_crews` files.
+
+What I changed:
+- Changed the input dataset to a chocolate-focused corpus in `data/text_data_crews.txt`.
+- Updated the script and notebook to use the new input file:
+  - `src/nlp/text_preprocessing_crews.py`
+  - `notebooks/text_preprocessing_crews.ipynb`
+- Expanded the stop word list by adding:
+  - `not`, `this`, `also`, `more`, `into`, `back`, `been`, `than`, `such`, `very`
+- Kept the frequency table output and top-token analysis.
+- Changed visual outputs to match the chocolate topic:
+  - Section 10 now uses a lollipop chart for top terms.
+  - Section 11 now uses a donut chart for token-stage share.
+
+Why I made these changes:
+- To make the project output domain-specific (chocolate) instead of generic sample text.
+- To reduce low-information words and improve token quality.
+- To create more engaging and interpretable charts for presentation.
+
+What I observed after running:
+- The project runs successfully with:
+  - `uv run python -m nlp.text_preprocessing_crews`
+- The notebook runs end-to-end with the updated charts.
+- Top tokens now reflect chocolate-focused vocabulary.
+- Expanded stop words reduce noise in the cleaned token list.
+- The lollipop chart makes token ranking easy to compare, and the donut chart clearly shows stage proportions.
+
+## Files Modified for Phase 4
+
+- `data/text_data_crews.txt`
+- `src/nlp/text_preprocessing_crews.py`
+- `notebooks/text_preprocessing_crews.ipynb`

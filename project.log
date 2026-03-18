@@ -49,3 +49,122 @@
 2026-03-18 16:52:59 | INFO | CI | Pipeline executed successfully!
 2026-03-18 16:52:59 | INFO | CI | ========================
 2026-03-18 16:52:59 | INFO | CI | END main()
+2026-03-18 17:19:48 | INFO | CI | === RUN START ===
+2026-03-18 17:19:48 | INFO | CI | project=NLP
+2026-03-18 17:19:48 | INFO | CI | repo_dir=nlp-02-text-preprocessing
+2026-03-18 17:19:48 | INFO | CI | python=3.14.3
+2026-03-18 17:19:48 | INFO | CI | os=Windows 11
+2026-03-18 17:19:48 | INFO | CI | shell=powershell
+2026-03-18 17:19:48 | INFO | CI | cwd=.
+2026-03-18 17:19:48 | INFO | CI | github_actions=False
+2026-03-18 17:19:48 | INFO | CI | START script.....
+2026-03-18 17:19:48 | INFO | CI | ROOT_PATH = .
+2026-03-18 17:19:48 | INFO | CI | DATA_PATH = data
+2026-03-18 17:19:48 | INFO | CI | NOTEBOOKS_PATH = notebooks
+2026-03-18 17:19:48 | INFO | CI | SCRIPTS_PATH = scripts
+2026-03-18 17:20:00 | INFO | CI | ========================
+2026-03-18 17:20:00 | INFO | CI | Pipeline executed successfully!
+2026-03-18 17:20:00 | INFO | CI | ========================
+2026-03-18 17:20:00 | INFO | CI | END main()
+2026-03-18 17:20:32 | INFO | CI | === RUN START ===
+2026-03-18 17:20:32 | INFO | CI | project=NLP
+2026-03-18 17:20:32 | INFO | CI | repo_dir=nlp-02-text-preprocessing
+2026-03-18 17:20:32 | INFO | CI | python=3.14.3
+2026-03-18 17:20:32 | INFO | CI | os=Windows 11
+2026-03-18 17:20:32 | INFO | CI | shell=powershell
+2026-03-18 17:20:32 | INFO | CI | cwd=.
+2026-03-18 17:20:32 | INFO | CI | github_actions=False
+2026-03-18 17:20:32 | INFO | CI | START script.....
+2026-03-18 17:20:32 | INFO | CI | ROOT_PATH = .
+2026-03-18 17:20:32 | INFO | CI | DATA_PATH = data
+2026-03-18 17:20:32 | INFO | CI | NOTEBOOKS_PATH = notebooks
+2026-03-18 17:20:32 | INFO | CI | SCRIPTS_PATH = scripts
+2026-03-18 17:20:35 | INFO | CI | ========================
+2026-03-18 17:20:35 | INFO | CI | Pipeline executed successfully!
+2026-03-18 17:20:35 | INFO | CI | ========================
+2026-03-18 17:20:35 | INFO | CI | END main()
+2026-03-18 17:26:30 | INFO | CI | === RUN START ===
+2026-03-18 17:26:30 | INFO | CI | project=NLP
+2026-03-18 17:26:30 | INFO | CI | repo_dir=nlp-02-text-preprocessing
+2026-03-18 17:26:30 | INFO | CI | python=3.14.3
+2026-03-18 17:26:30 | INFO | CI | os=Windows 11
+2026-03-18 17:26:30 | INFO | CI | shell=powershell
+2026-03-18 17:26:30 | INFO | CI | cwd=.
+2026-03-18 17:26:30 | INFO | CI | github_actions=False
+2026-03-18 17:26:30 | INFO | CI | START script.....
+2026-03-18 17:26:30 | INFO | CI | ROOT_PATH = .
+2026-03-18 17:26:30 | INFO | CI | DATA_PATH = data
+2026-03-18 17:26:30 | INFO | CI | NOTEBOOKS_PATH = notebooks
+2026-03-18 17:26:30 | INFO | CI | SCRIPTS_PATH = scripts
+2026-03-18 17:26:42 | INFO | CI | ========================
+2026-03-18 17:26:42 | INFO | CI | Pipeline executed successfully!
+2026-03-18 17:26:42 | INFO | CI | ========================
+2026-03-18 17:26:42 | INFO | CI | END main()
+2026-03-18 17:29:05 | INFO | CI | === RUN START ===
+2026-03-18 17:29:05 | INFO | CI | project=NLP
+2026-03-18 17:29:05 | INFO | CI | repo_dir=nlp-02-text-preprocessing
+2026-03-18 17:29:05 | INFO | CI | python=3.14.3
+2026-03-18 17:29:05 | INFO | CI | os=Windows 11
+2026-03-18 17:29:05 | INFO | CI | shell=powershell
+2026-03-18 17:29:05 | INFO | CI | cwd=.
+2026-03-18 17:29:05 | INFO | CI | github_actions=False
+2026-03-18 17:29:05 | INFO | CI | START script.....
+2026-03-18 17:29:05 | INFO | CI | ROOT_PATH = .
+2026-03-18 17:29:05 | INFO | CI | DATA_PATH = data
+2026-03-18 17:29:05 | INFO | CI | NOTEBOOKS_PATH = notebooks
+2026-03-18 17:29:05 | INFO | CI | SCRIPTS_PATH = scripts
+2026-03-18 17:29:14 | INFO | CI | ========================
+2026-03-18 17:29:14 | INFO | CI | Pipeline executed successfully!
+2026-03-18 17:29:14 | INFO | CI | ========================
+2026-03-18 17:29:14 | INFO | CI | END main()
+2026-03-18 17:42:22 | INFO | CI | === RUN START ===
+2026-03-18 17:42:22 | INFO | CI | project=NLP
+2026-03-18 17:42:22 | INFO | CI | repo_dir=nlp-02-text-preprocessing
+2026-03-18 17:42:22 | INFO | CI | python=3.14.3
+2026-03-18 17:42:22 | INFO | CI | os=Windows 11
+2026-03-18 17:42:22 | INFO | CI | shell=powershell
+2026-03-18 17:42:22 | INFO | CI | cwd=.
+2026-03-18 17:42:22 | INFO | CI | github_actions=False
+2026-03-18 17:42:22 | INFO | CI | START script.....
+2026-03-18 17:42:22 | INFO | CI | ROOT_PATH = .
+2026-03-18 17:42:22 | INFO | CI | DATA_PATH = data
+2026-03-18 17:42:22 | INFO | CI | NOTEBOOKS_PATH = notebooks
+2026-03-18 17:42:22 | INFO | CI | SCRIPTS_PATH = scripts
+2026-03-18 17:42:30 | INFO | CI | ========================
+2026-03-18 17:42:30 | INFO | CI | Pipeline executed successfully!
+2026-03-18 17:42:30 | INFO | CI | ========================
+2026-03-18 17:42:30 | INFO | CI | END main()
+2026-03-18 17:45:42 | INFO | CI | === RUN START ===
+2026-03-18 17:45:42 | INFO | CI | project=NLP
+2026-03-18 17:45:42 | INFO | CI | repo_dir=nlp-02-text-preprocessing
+2026-03-18 17:45:42 | INFO | CI | python=3.14.3
+2026-03-18 17:45:42 | INFO | CI | os=Windows 11
+2026-03-18 17:45:42 | INFO | CI | shell=powershell
+2026-03-18 17:45:42 | INFO | CI | cwd=.
+2026-03-18 17:45:42 | INFO | CI | github_actions=False
+2026-03-18 17:45:42 | INFO | CI | START script.....
+2026-03-18 17:45:42 | INFO | CI | ROOT_PATH = .
+2026-03-18 17:45:42 | INFO | CI | DATA_PATH = data
+2026-03-18 17:45:42 | INFO | CI | NOTEBOOKS_PATH = notebooks
+2026-03-18 17:45:42 | INFO | CI | SCRIPTS_PATH = scripts
+2026-03-18 17:46:29 | INFO | CI | ========================
+2026-03-18 17:46:29 | INFO | CI | Pipeline executed successfully!
+2026-03-18 17:46:29 | INFO | CI | ========================
+2026-03-18 17:46:29 | INFO | CI | END main()
+2026-03-18 17:46:53 | INFO | CI | === RUN START ===
+2026-03-18 17:46:53 | INFO | CI | project=NLP
+2026-03-18 17:46:53 | INFO | CI | repo_dir=nlp-02-text-preprocessing
+2026-03-18 17:46:53 | INFO | CI | python=3.14.3
+2026-03-18 17:46:53 | INFO | CI | os=Windows 11
+2026-03-18 17:46:53 | INFO | CI | shell=powershell
+2026-03-18 17:46:53 | INFO | CI | cwd=.
+2026-03-18 17:46:53 | INFO | CI | github_actions=False
+2026-03-18 17:46:53 | INFO | CI | START script.....
+2026-03-18 17:46:53 | INFO | CI | ROOT_PATH = .
+2026-03-18 17:46:53 | INFO | CI | DATA_PATH = data
+2026-03-18 17:46:53 | INFO | CI | NOTEBOOKS_PATH = notebooks
+2026-03-18 17:46:53 | INFO | CI | SCRIPTS_PATH = scripts
+2026-03-18 17:47:07 | INFO | CI | ========================
+2026-03-18 17:47:07 | INFO | CI | Pipeline executed successfully!
+2026-03-18 17:47:07 | INFO | CI | ========================
+2026-03-18 17:47:07 | INFO | CI | END main()
