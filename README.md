@@ -95,9 +95,9 @@ Run the Code
   - Choose recommended local .venv
 - Set Auto Save Option
 - Run the Python File
-      ```shell
-      uv run python src/nlp/text_preprocessing_case.py
-      ```
+```shell
+uv run python src/nlp/text_preprocessing_case.py
+```
 - Update Project README.md with process steps and commands
 
 Add or update Dependencies (In the Project Root Folder)
