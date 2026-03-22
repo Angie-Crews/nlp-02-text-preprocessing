@@ -1,0 +1,15 @@
+dark|Rich cocoa aroma with roasted almond notes and a clean, long finish.
+dark|Bittersweet profile with cherry acidity and subtle espresso undertones.
+dark|High cacao bar with earthy depth, dry texture, and bold cocoa flavor.
+dark|Velvety melt with orange zest, cocoa nib crunch, and lingering intensity.
+milk|Creamy body with caramel sweetness and toasted hazelnut flavor.
+milk|Smooth texture, light cocoa character, and sweet vanilla finish.
+milk|Balanced sweetness with biscuit notes and gentle dairy richness.
+milk|Silky mouthfeel with honey, malt, and soft cocoa aroma.
+white|Buttery profile with vanilla bean, coconut hints, and soft sweetness.
+white|Sweet and creamy bar with citrus peel and floral aroma.
+white|Milky confection with bright lemon notes and delicate texture.
+white|Round sweetness with toasted sugar and subtle fruit finish.
+dark|Complex bar with plum, black tea, and cocoa-forward structure.
+milk|Approachable flavor with fudge, toffee, and smooth finish.
+white|Dessert-like profile with caramelized milk and vanilla cream.
